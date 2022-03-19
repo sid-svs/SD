@@ -28,7 +28,7 @@ while True:
 	resposta = msg_resposta(dados)
 	
 	if not dados:
-		print("\n\nSem mais dados. echando conexão.\n\n")
+		print("\n\nSem mais dados.Fechando conexão.\n\n")
 		conexao.close()
 		break
 	
